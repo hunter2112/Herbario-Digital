@@ -19,9 +19,8 @@ CREATE TABLE plantas (
     descricao TEXT,
     caracteristicas TEXT,
     uso TEXT,
-    imagem VARBINARY(255)  
+    imagem VARBINARY(255),
 );
-
 -- Inserir dados
 INSERT INTO plantas (nome, nome_cientifico, descricao, caracteristicas, uso) VALUES
 ('Alecrim', 'Rosmarinus officinalis', 'Arbusto aromático muito usado na culinária e fitoterapia.', 'Estimula a memória, tem ação antioxidante e anti-inflamatória.', 'Melhora a concentração, usado em óleos essenciais e chás.'),

@@ -27,6 +27,9 @@ use App\Database;
 
             <p><strong>Uso:</strong></p>
             <p id="modal-uso"></p>
+            <br>
+
+            <a class="link_youtube" target="_blank" href="https://www.youtube.com/channel/UCd_yk8IM372g6OpPjMlvQQw">Saiba mais no canal do youtube</a> </strong>
         </div>
     </div>
 </div>
@@ -120,6 +123,7 @@ if ($result->num_rows === 0) {
 
             <div class='plant-image' style=\"background-image:url('$imgPath')\"></div>
             <h3 class='plant-name'>".htmlspecialchars($nome)."</h3>
+            
         </div>";
     }
 }
